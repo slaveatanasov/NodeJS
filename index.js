@@ -39,7 +39,7 @@
 // var boolean = true;
 // console.log(boolean);
 
-var integer = [3, 4, 5, 6, 7, 8, 9, 12];
+// var integer = [3, 4, 5, 6, 7, 8, 9, 12];
 
 // integer[100] = 50;
 // console.log(integer);
@@ -54,3 +54,33 @@ var integer = [3, 4, 5, 6, 7, 8, 9, 12];
 // 	}
 // 	console.log("\n");
 // }
+
+// var brojac = 0;
+
+// for (let i = 10; i > brojac; i--){
+// 	console.log(i);
+// }
+
+// while (brojac < 10){
+// 	brojac++;
+// 	console.log(brojac);
+// }
+
+// do {brojac++;
+// 	console.letog(brojac);
+// } while (brojac < 10)
+
+//homework: check if correct password, if not show message wrong password.
+
+var names = ["Iva", "Ana", "Marija"];
+var pass = ["a", "bb", "000"];
+var myName = "Ana";
+var myPass = "bb";
+
+for(let i = 0; i < names.length; i++){
+	if(names[i] == myName && pass[i] == myPass){
+		console.log("logged in");
+	}else{
+		console.log("error");
+	}
+}
